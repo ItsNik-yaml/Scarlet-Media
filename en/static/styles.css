@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     background: #f8f9fa;
-    color: #495057; /* Dark gray for better readability */
+    color: #495057;
 }
 
 header nav ul {
@@ -16,7 +16,7 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between; /* Ensure items are evenly spaced */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -25,11 +25,11 @@ header nav ul li {
 }
 
 header nav ul li:last-child {
-    margin-left: auto; /* Push the flag icon to the right */
+    margin-left: auto;
 }
 
 header nav ul li:last-child img {
-    width: 30px; /* Adjust size of the flag icon as needed */
+    width: 30px;
     height: auto;
 }
 
@@ -56,7 +56,7 @@ header nav ul li a:hover {
 .hero {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to right, #212529, #343a40); /* Dark gradient */
+    background: linear-gradient(to right, #212529, #343a40);
     color: #fff;
     display: flex;
     align-items: center;
@@ -82,14 +82,14 @@ h2 {
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
-    color: #343a40; /* Dark gray */
+    color: #343a40;
 }
 
 h2::after {
     content: '';
     width: 50px;
     height: 4px;
-    background: #007bff; /* Blue underline */
+    background: #007bff;
     display: block;
     margin: 10px auto 0;
 }
@@ -124,7 +124,7 @@ h2::after {
     padding: 50px 0;
     text-align: center;
     border-radius: 40px 40px 0 0;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #a1a1a1); /* Gradient with transparency */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #a1a1a1);
 }
 
 .social-media {
@@ -145,7 +145,7 @@ h2::after {
 .social-media a {
     text-decoration: none;
     margin: 0 10px;
-    color: #495057; /* Dark gray */
+    color: #495057;
     font-size: 24px;
     transition: color 0.3s;
     display: inline-block;
@@ -154,7 +154,7 @@ h2::after {
 #contact a {
     display: inline-block;
     margin: 10px 0;
-    color: #007bff; /* Blue color */
+    color: #007bff;
     font-size: 18px;
     text-decoration: none;
     transition: color 0.3s;
@@ -162,11 +162,11 @@ h2::after {
 
 #contact a:hover {
     text-decoration: underline;
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
 }
 
 .footer {
-    background: #343a40; /* Darker background */
+    background: #343a40; 
     color: #ccc;
     padding: 20px 0;
     text-align: center;

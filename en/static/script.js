@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Smooth scrolling
     $('a[href*="#"]').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
@@ -7,7 +6,6 @@ $(document).ready(function() {
         }, 500, 'linear');
     });
 
-    // Fade in effect
     const sections = $('section');
     sections.waypoint(function(direction) {
         if (direction === 'down') {
@@ -16,7 +14,6 @@ $(document).ready(function() {
     }, { offset: '75%' });
 });
 
-// CSS for fade-in effect
 const css = `
 .fade-in {
     opacity: 1;
